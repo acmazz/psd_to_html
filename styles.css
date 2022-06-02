@@ -286,9 +286,16 @@ Team Section
     text-align: center;
 }
 
+#t-hr {
+    display: block;
+    width: 10%;
+    margin: auto;
+}
+
 #team-tile{
     display: inline-flex;
     text-align: center;
+    justify-content: center;
 }
 
 div .team-tile {

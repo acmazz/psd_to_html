@@ -19,11 +19,11 @@ body {
 }
 
 .container_contact_L {
-  max-width: 400px;
+  max-width: 300px;
 
   width: 100%;
 
-  margin: 0 auto;
+  margin-right: 20px;
 
   display: flex;
 
@@ -42,15 +42,20 @@ body {
   align-items: flex-start;
 
   vertical-align: top;
+  margin: 0 auto;
 
   max-width: 606px;
 }
 
 .container .container_contact_L {
-  margin-right: 5%;
 
-  min-width: 350px;
+  min-width: 300px;
 }
+form#contact{
+  padding: 10px;
+ 
+}
+
 
 #contact input[type="text"],
 #contact input[type="email"],
@@ -74,9 +79,10 @@ body {
 }
 
 #contact h2 {
-  margin: 5px 0 15px;
+  margin: 0px 5px 45px 0px;
 
   display: block;
+  font-size: 20px;
 }
 
 #contact button {
@@ -114,13 +120,21 @@ body {
 #contact textarea {
   height: 180px;
 }
+.container_client h2{
+  
+  display: block;
+  font-size: 20px;
+
+  margin:25px 5px 10px 50px;
+}
 
 .client_boxs {
-  max-width: 250px;
+  max-width: 280px;
 
   display: flex;
 
   justify-content: space-between;
+  margin: 40px;
 }
 
 .client_boxs_1 {
@@ -132,7 +146,11 @@ body {
 
   max-width: 150px;
 
-  margin-right: 10%;
+  padding: 10px;
+
+  margin: 0 10px 10px 10px;
+
+
 }
 
 .client_boxs_2 {
@@ -141,6 +159,10 @@ body {
   display: flex;
 
   flex-direction: column;
+
+  padding: 10px;
+  margin: 0 10px 10px 10px;
+
 }
 
 .logo_box {
@@ -157,6 +179,7 @@ body {
 
 .logo_box img {
   width: 120px;
+  padding: 3px;
 
   margin-bottom: 40px;
 }

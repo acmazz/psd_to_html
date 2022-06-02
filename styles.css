@@ -1,3 +1,6 @@
+
+@charset "UTF-8";
+
 * {
     margin: 0;
 }
@@ -27,9 +30,13 @@ nav {
 }
 
 #contact_client-section {
-    color: lightsalmon;
+
+    background-color: green;
+
 }
 
 footer {
     color: blueviolet;
 }
+
+

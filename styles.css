@@ -23,7 +23,7 @@ nav {
 
 nav
 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 0.94em;
     color: #fff;
     max-width: 606px;
@@ -91,14 +91,14 @@ header .inner .right .item:nth-last-child(1)
 header .inner .left div, 
 header .inner .right div
 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 header #hero-section
 {
     color: #fff;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 header #hero-section h1
@@ -124,10 +124,6 @@ header #hero-section button
     cursor: pointer;
 }
 
-#our_story-section {
-    /*color: green;*/
-}
-
 #our_story-section .inner
 {
     display: flex;
@@ -146,7 +142,7 @@ header #hero-section button
 #our_story-section .inner .right
 {
     margin-left: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 #our_story-section .inner .right button
@@ -157,10 +153,6 @@ header #hero-section button
     background-color: rgb(0,0,0,0.0);
     border-radius: 4px;
     cursor: pointer;
-}
-
-#watch-section {
-    /*color: darkred;*/
 }
 
 #watch-section
@@ -181,18 +173,13 @@ header #hero-section button
     justify-content: center;
     align-items: center;
     color: #FFF;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 #watch-section .inner .item .label
 {
     padding-top: 20px;
 }
-
-#expertise-section {
-    /*color: fuchsia;*/
-}
-
 
 #expertise-section {
     width: 100%;
@@ -211,7 +198,7 @@ header #hero-section button
 
 #expertise-section .upper h1 {
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 1.4em;
     margin: 10px 0;
@@ -219,7 +206,7 @@ header #hero-section button
 
 #expertise-section .upper h2 {
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: normal;
     font-size: 1em;
     margin-bottom: 10px;
@@ -267,7 +254,7 @@ header #hero-section button
 #expertise-section .lower .item .pic,
 #expertise-section .lower .item .tle,
 #expertise-section .lower .item .dsc {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     justify-content: center;
     text-align: center;
     padding: 10px;
@@ -291,8 +278,7 @@ Team Section
 #team-section {
     color: white;
     background: url(/images/bgk-team.png) no-repeat center center;
-    max-width: 100vw;    
-    display: block;
+    display: inline-block;
     padding: 3rem;
 }
 
@@ -389,7 +375,7 @@ body{
 #footer .footer-company .company-icon p{
     font-size: 30px;
     background: linear-gradient(to right, #01decf, #4697bf);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: 8px;  
     font-weight: 300;
@@ -522,4 +508,5 @@ body{
 #footer .address-title,#footer .links-title{
     margin-top: 48px;
     min-height: unset;
+}
 }

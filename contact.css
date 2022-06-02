@@ -59,7 +59,7 @@ form#contact{
 
 #contact input[type="text"],
 #contact input[type="email"],
-#contact input[type="tel"],
+#contact input[type="text"],
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
@@ -88,7 +88,7 @@ form#contact{
 #contact button {
   color: rgb(117, 174, 184);
 
-  border: 1px solid rgb(117, 174, 184);
+  border: 1px solid rgb(139, 219, 233);
 
   padding: 10px 25px;
 

@@ -28,6 +28,7 @@
             </nav>
             <section id="hero-section">
                 <h1>We Are Awesome Creative Agency</h1>
+                <hr>
                 <p>
                     This is a professional creative agency with a long 
                     history of successful productions in website and 
@@ -126,11 +127,13 @@
                 </div>
             </section>
             <section id="team-section">
+                <div class = "outer">
                 <div id="team-head">
                     <h2>MEET OUR AMAZING TEAM</h2>
                     <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
                     <hr id="t-hr">
                 </div>
+                <div class = "inner">
                 <div id="team-tile">
                     <div class="team-tile" id="t-ceo">
                         <img class="t-image" src="" alt="">
@@ -153,16 +156,116 @@
                         <p class="t-position">MARKETING</p>
                     </div>
                 </div>
+                </div>
                 <div id="team-bottom">
                     <p>
                         Become part of our dream team, let's join us ! 
                     </p>
                     <button type="button" class="button">WE ARE HIRING</button>
                 </div>
+                </div>
             </section>
-            <section id="contact_client-section">contact / client section</section>
+            <section id="contact_client-section">
+                <div class="container">
+                  <div class="container_contact_L">
+                    <h2>GIVE US A GOOD NEWS</h2>
+                    <form id="contact" action="#" method="post">
+                      <input
+                        placeholder="Your name"
+                        type="text"
+                        tabindex="1"
+                        required
+                        autofocus
+                      />
+                      <input
+                        placeholder="your email"
+                        type="email"
+                        tabindex="2"
+                        required
+                      />
+                      <input placeholder="Subject" type="text" tabindex="3" required />
+                      <textarea
+                        placeholder="Type your Message Here...."
+                        tabindex="5"
+                        required
+                      ></textarea>
+                      <button
+                        name="submit"
+                        type="submit"
+                        id="contact-submit"
+                        data-submit="...Sending"
+                      >
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                  <div class="container_client">
+                    <h2>OUR HAPPY CLIENT</h2>
+                    <div class="client_boxs">
+                      <div class="client_boxs_1">
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img src="./images/png/Zara_Logo.png" alt=""
+                          /></a>
+                        </div>
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img
+                              src="./images/png/1280px-Barneys_New_York_Logo.png"
+                              alt=""
+                          /></a>
+                        </div>
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img src="./images/png/Calvin_klein_logo.png" alt=""
+                          /></a>
+                        </div>
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img src="./images/png/Converse_logo.png" alt=""
+                          /></a>
+                        </div>
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img src="./images/png/1280px-Levi's_logo.png" alt=""
+                          /></a>
+                        </div>
+                      </div>
+        
+                      <div class="client_boxs_2">
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img src="./images/png/Logo_of_Mango_(new).png" alt=""
+                          /></a>
+                        </div>
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img src="./images/png/1280px-Gucci_Logo.png" alt=""
+                          /></a>
+                        </div>
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img src="./images/png/1280px-Logo_NIKE.png" alt=""
+                          /></a>
+                        </div>
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img src="./images/png/Puma_Logo.png" alt=""
+                          /></a>
+                        </div>
+                        <div class="logo_box">
+                          <a href="#"
+                            ><img src="./images/png/Billabong.png" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>        
         </main>
         <footer id="footer">
+            <div class = "inner">
             <div class="footer-container">
                 <div class="footer-content">
                     <div class="footer-company">
@@ -215,7 +318,8 @@
     
                 </div>
             </div>
-    
+            </div>
+
         </footer>
     
     </body>

@@ -106,6 +106,14 @@ header #hero-section h1
     font-size: 1.4em;
 }
 
+header #hero-section hr
+{
+    width: 10%;
+    border: none;
+    border-top: 1px solid rgb(230,230,230);
+    margin: 15px auto;
+}
+
 header #hero-section p
 {
     line-height: 1.6em;
@@ -183,6 +191,7 @@ header #hero-section button
 
 #expertise-section {
     width: 100%;
+    padding: 40px 0px;
 }
 
 #expertise-section .inner {
@@ -276,10 +285,28 @@ header #hero-section button
 Team Section
 */
 #team-section {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    background: url(/images/bgk-team.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+#team-section .outer
+{
     color: white;
-    background: url(/images/bgk-team.png) no-repeat center center;
-    display: inline-block;
-    padding: 3rem;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+#team-section .inner
+{
+    display: flex;
+    max-width: 606px;
+    padding: 0px;
+    margin: 0 auto;
 }
 
 #team-head {
@@ -293,14 +320,19 @@ Team Section
 }
 
 #team-tile{
-    display: inline-flex;
+    display: flex;
     text-align: center;
     justify-content: center;
 }
 
+#team-tile img
+{
+    width: 139px;
+}
+
 div .team-tile {
     border: white 1px solid;
-    margin: 0.5rem;
+    margin: 0.4rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.5rem;
 }
@@ -333,10 +365,6 @@ div .team-tile {
     cursor: pointer;
 }
 
-#contact_client-section {
-    color: lightsalmon;
-}
-
 body{
     font-size: 16px;
     font-family: 'Roboto-Light', sans-serif;
@@ -346,15 +374,25 @@ body{
     color: white !important;
 }
 
+
 #footer{
+    position: absolute;
+    left: 0px;
+    width: 100%;
     background: url('/images/bgk-footer.png') no-repeat;
     background-size: cover;
-    background-position:center;
+}
+
+#footer .inner
+{
     min-height: 50vh;
-    padding:4rem 0;
+    max-width: 606px;
+    margin: 0 auto;
+    padding:4rem 2rem;
     display: flex;
     align-items: center;
     color: blueviolet;
+    font-size: 0.85em;
 }
 
 #footer .footer-container{
@@ -517,3 +555,116 @@ body{
         min-height: unset;
     }
 }
+
+#contact_client-section {
+    width: 100%;
+    height: 490px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 440px;
+}
+
+.container_contact_L {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    vertical-align: top;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    vertical-align: top;
+    max-width: 606px;
+  }
+  .container .container_contact_L {
+    margin-right: 5%;
+    min-width: 350px;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+  }
+
+#contact_client-section form
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#contact_client-section h2
+{
+    padding-bottom: 20px;
+}
+
+#contact_client-section h2:nth-child(1)
+{
+    margin-bottom: 15px;
+}
+
+  #contact {
+    padding: 25px;
+    padding-top: 0px;
+  }
+  #contact h2 {
+    margin: 5px 0 15px;
+    display: block;
+  }
+  #contact button {
+    color: rgb(117, 174, 184);
+    border: 1px solid rgb(117, 174, 184);
+    padding: 10px 25px;
+    background-color: rgb(0, 0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 6px;
+    margin-bottom: 15px;
+  }
+  
+  #contact textarea {
+    height: 180px;
+  }
+  
+  .client_boxs {
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .client_boxs_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 150px;
+    margin-right: 10%;
+  }
+  
+  .client_boxs_2 {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo_box img {
+    width: 120px;
+    margin-bottom: 40px;
+  }

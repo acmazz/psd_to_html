@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0; padding: 0; box-sizing: border-box;
 }
 
 nav {
@@ -30,6 +30,182 @@ nav {
     color: lightsalmon;
 }
 
-footer {
+body{
+    font-size: 16px;
+    font-family: 'Roboto-Light', sans-serif;
+}
+
+#footer .color-white{
+    color: white !important;
+}
+
+#footer{
+    background: url('/images/bgk-footer.png') no-repeat;
+    background-size: cover;
+    background-position:center;
+    min-height: 50vh;
+    padding:4rem 0;
+    display: flex;
+    align-items: center;
     color: blueviolet;
+}
+
+#footer .footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer .footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+#footer .footer-company{
+   flex: calc((100% / 3) - 56px);
+   margin-right: 28px;
+}
+
+#footer .footer-company .company-icon{
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+#footer .footer-company .company-icon p{
+    font-size: 30px;
+    background: linear-gradient(to right, #01decf, #4697bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 8px;  
+    font-weight: 300;
+}
+
+#footer .company-info p{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#footer .footer-address{
+   flex: calc((100% / 3) - 56px); 
+   margin-right: 28px;
+}
+
+#footer .footer-links{
+   flex: calc((100% / 3) - 56px); 
+}
+
+#footer .address-title,#footer .links-title{
+    color: white;
+    min-height: 50px;
+    display: flex;align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+#footer .address-title{
+    color: white;
+}
+
+#footer .address{
+    margin-bottom: 24px !important;
+    display: flex;
+}
+
+#footer .phone{
+    display: flex;
+}
+
+#footer .address img{
+    margin-right: 12px !important;
+    max-height: 22px;
+}
+
+#footer .phone img{
+    margin-right: 12px !important;
+}
+
+#footer .subscribe-form{
+    display: flex; align-items: center;
+    margin-bottom: 24px;
+
+}
+#footer .subscribe-form input{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 12px 14px;
+    margin-right: 10px;
+    background: transparent;
+    color: white;
+    font-style: 20px;
+    flex: 90%;
+} 
+
+
+#footer .subscribe-form button{
+    flex: auto;
+    padding: 8px 24px;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+
+#footer .links{
+    display: flex;
+}
+
+
+#footer .links .link{
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+#footer .links .link:last-child{
+    margin-right: 0;
+}
+
+
+#footer .footer-help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#footer .footer-help .help-links{
+    display: flex;
+}
+
+
+#footer .footer-help .help-link{
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+@media screen and (max-width:768px) {
+#footer .footer-content{
+    flex-direction: column;
+}
+
+
+#footer{
+    padding: 40px 30px;
+}
+
+
+#footer .footer-help{
+    flex-direction: column;
+}
+
+
+#footer .footer-help .help-link {
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+#footer .address-title,#footer .links-title{
+    margin-top: 48px;
+    min-height: unset;
 }

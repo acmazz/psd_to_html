@@ -119,7 +119,7 @@ header #hero-section button
     color: rgb(117,174,184);
     border: 1px solid rgb(117,174,184);
     padding: 10px;
-    background-color: rgb(0,0,0,0.0);
+    background-color: transparent;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -150,7 +150,7 @@ header #hero-section button
     color: rgb(117,174,184);
     border: 1px solid rgb(117,174,184);
     padding: 10px;
-    background-color: rgb(0,0,0,0.0);
+    background-color: transparent;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -288,7 +288,7 @@ Team Section
 
 #t-hr {
     display: block;
-    width: 10%;
+    width: 5%;
     margin: auto;
 }
 
@@ -492,28 +492,28 @@ body{
 }
 
 @media screen and (max-width:768px) {
-#footer .footer-content{
-    flex-direction: column;
-}
+    #footer .footer-content{
+        flex-direction: column;
+    }
 
 
-#footer{
-    padding: 40px 30px;
-}
+    #footer{
+        padding: 40px 30px;
+    }
 
 
-#footer .footer-help{
-    flex-direction: column;
-}
+    #footer .footer-help{
+        flex-direction: column;
+    }
 
 
-#footer .footer-help .help-link {
-    margin-right: 12px;
-    margin-bottom: 20px;
-}
+    #footer .footer-help .help-link {
+        margin-right: 12px;
+        margin-bottom: 20px;
+    }
 
-#footer .address-title,#footer .links-title{
-    margin-top: 48px;
-    min-height: unset;
-}
+    #footer .address-title,#footer .links-title{
+        margin-top: 48px;
+        min-height: unset;
+    }
 }

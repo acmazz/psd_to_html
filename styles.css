@@ -21,11 +21,17 @@ nav {
     color: blue;
 }
 
+nav .tajam {
+    font-size: 1.5rem;
+    font-weight: 1;
+}
+
 nav
 {
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 0.94em;
-    color: #fff;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: white;
     max-width: 606px;
     margin: 0 auto;
 }
@@ -38,7 +44,7 @@ header
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 350px;
+    height: 500px;
 }
 
 header .inner
@@ -51,7 +57,7 @@ header .inner .left
 {
     display: flex;
     align-items: center;
-    color: rgb(117,174,184);
+    color: rgb(64, 202, 190);
 }
 
 header .inner .left div:nth-child(1)
@@ -72,7 +78,7 @@ header .inner .right
 
 header .inner .right .item:nth-child(1)
 {
-    color: rgb(117,174,184);
+    color: rgb(64, 202, 190);
 }
 
 header .inner .right .item
@@ -96,27 +102,33 @@ header .inner .right div
 
 header #hero-section
 {
-    color: #fff;
+    color: white;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 header #hero-section h1
 {
-    font-size: 1.4em;
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
 header #hero-section hr
 {
-    width: 10%;
+    width: 3%;
     border: none;
-    border-top: 1px solid rgb(230,230,230);
+    border-top: 1px solid rgb(64, 202, 190);
     margin: 15px auto;
 }
 
 header #hero-section p
 {
-    line-height: 1.6em;
+    font-size: 0.9rem;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5rem;
     max-width: 606px;
     margin: 0 auto;
     padding-bottom: 30px;
@@ -124,12 +136,15 @@ header #hero-section p
 
 header #hero-section button
 {
-    color: rgb(117,174,184);
-    border: 1px solid rgb(117,174,184);
-    padding: 10px;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: rgb(64, 202, 190);
+    border: 1px solid rgb(64, 202, 190);
+    padding: 6px 7px;
     background-color: transparent;
-    border-radius: 4px;
+    border-radius: 1px;
     cursor: pointer;
+    margin-top: 1.5rem;
 }
 
 #our_story-section .inner
@@ -138,7 +153,9 @@ header #hero-section button
     justify-content: center;
     align-items: center;
     max-width: 606px;
+    height: 22rem;
     margin: 0 auto;
+    margin-top: 32rem;
     padding: 40px 0px;
 }
 
@@ -147,16 +164,25 @@ header #hero-section button
     margin-right: 30px;
 }
 
+#our_story-section h1 {
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
 #our_story-section .inner .right
 {
-    margin-left: 30px;
+    margin-left: 3rem;
+    font-size: 0.9rem;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5rem;
 }
 
 #our_story-section .inner .right button
 {
-    color: rgb(117,174,184);
-    border: 1px solid rgb(117,174,184);
+    color: rgb(64, 202, 190);
+    border: 1px solid rgb(64, 202, 190);
     padding: 10px;
     background-color: transparent;
     border-radius: 4px;
@@ -165,7 +191,7 @@ header #hero-section button
 
 #watch-section
 {
-    height: 400px;
+    height: 450px;
 }
 
 #watch-section .inner
@@ -175,12 +201,12 @@ header #hero-section button
     left: 0px;
     background-image: url(images/bgk-middle.png);
     background-size: cover;
-    height: 400px;
+    height: 450px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    color: white;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
@@ -207,25 +233,25 @@ header #hero-section button
 
 #expertise-section .upper h1 {
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     margin: 10px 0;
 }
 
 #expertise-section .upper h2 {
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1rem;
     margin-bottom: 10px;
 }
 
 #expertise-section .upper hr {
     border: none;
-    border-top: 1px solid rgb(230,230,230);
-    width: 100px;
-    margin: 0 auto;
+    border-top: 1px solid gray;
+    width: 6%;
+    margin: 1rem auto;
 }
 #expertise-section .lower {
     margin: 0;
@@ -271,13 +297,14 @@ header #hero-section button
 }
 
 #expertise-section .lower .item .tle {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 0.56rem;
     font-weight: bold;
-    font-size: 0.9em;
 }
 
 #expertise-section .lower .item .dsc {
-    font-weight: normal;
-    font-size: 0.8em;
+    font-weight: lighter;
+    font-size: 0.7rem;
 }
 
 
@@ -290,7 +317,7 @@ Team Section
     width: 100%;
     background: url(/images/bgk-team.png) no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 500px;
 }
 
 #team-section .outer
@@ -309,20 +336,36 @@ Team Section
     margin: 0 auto;
 }
 
-#team-head {
+#team-head h2{
     text-align: center;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#team-head p{
+    text-align: center;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
 }
 
 #t-hr {
-    display: block;
-    width: 5%;
-    margin: auto;
+    border: none;
+    border-top: 1px solid gray;
+    width: 3%;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 
 #team-tile{
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
 #team-tile img
@@ -331,18 +374,8 @@ Team Section
 }
 
 div .team-tile {
-    border: white 1px solid;
     margin: 0.4rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.5rem;
-}
-
-.t-name{
-    font-weight: bold;
-}
-
-.t-position{
-    color: white;
 }
 
 .team-tile img {
@@ -351,18 +384,156 @@ div .team-tile {
     background-color: white;
 }
 
-#team-bottom {
+.t-tile-label{
+    border: rgba(255, 255, 255, 0.2) solid 1px;
+    padding: 1rem 0;
+}
+.t-name{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 0.2rem;
+}
+
+.t-position{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 0.5rem;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.52);
+}
+
+#team-bottom{
     display: block;
     text-align: center;
 }
 
+#team-bottom p{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
 #team-section #team-bottom .button {
+    font-size: 0.5rem;
+    font-weight: bold;
     color: rgb(64, 202, 190);
     border: 1px solid rgb(64, 202, 190);
-    border-radius: 4px;
-    padding: 8px;
+    padding: 6px 7px;
+    background-color: transparent;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+#contact_client-section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 550px;
+}
+
+.container_contact_L {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    vertical-align: top;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    vertical-align: top;
+    max-width: 606px;
+}
+.container .container_contact_L {
+    margin-right: 5%;
+    min-width: 350px;
+}
+
+#contact_client-section form
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#contact_client-section h2
+{
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight:lighter;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 20px;
+}
+
+#contact_client-section h2:nth-child(1)
+{
+    margin-bottom: 15px;
+}
+
+#contact {
+    padding: 25px;
+    padding-top: 0px;
+}
+#contact h2 {
+    margin: 5px 0 15px;
+    display: block;
+}
+#contact button {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: rgb(64, 202, 190);
+    border: 1px solid rgb(64, 202, 190);
+    border-radius: 1px;
+    padding: 0.5rem 1.5rem;
     background-color: transparent;
     cursor: pointer;
+}
+
+#contact input[type="text"], #contact input[type="email"],
+#contact input[type="tel"], #contact input[type="url"],
+#contact textarea {
+    width: 90%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#contact textarea {
+    height: 180px;
+}
+
+.client_boxs {
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client_boxs_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 150px;
+    margin-right: 10%;
+}
+
+.client_boxs_2 {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_box img {
+    width: 120px;
+    margin-bottom: 40px;
 }
 
 body{
@@ -407,14 +578,14 @@ body{
 }
 
 #footer .footer-company{
-   flex: calc((100% / 3) - 56px);
-   margin-right: 28px;
+    flex: calc((100% / 3) - 56px);
+    margin-right: 28px;
 }
 
 #footer .footer-company .company-icon{
-  display: flex;
-  align-items: center;
-  margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
 }
 
 #footer .footer-company .company-icon p{
@@ -534,16 +705,13 @@ body{
         flex-direction: column;
     }
 
-
     #footer{
         padding: 40px 30px;
     }
 
-
     #footer .footer-help{
         flex-direction: column;
     }
-
 
     #footer .footer-help .help-link {
         margin-right: 12px;
@@ -555,116 +723,3 @@ body{
         min-height: unset;
     }
 }
-
-#contact_client-section {
-    width: 100%;
-    height: 490px;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 440px;
-}
-
-.container_contact_L {
-    max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    vertical-align: top;
-  }
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    vertical-align: top;
-    max-width: 606px;
-  }
-  .container .container_contact_L {
-    margin-right: 5%;
-    min-width: 350px;
-  }
-  
-  #contact input[type="text"],
-  #contact input[type="email"],
-  #contact input[type="tel"],
-  #contact input[type="url"],
-  #contact textarea,
-  #contact button[type="submit"] {
-    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
-  }
-
-#contact_client-section form
-{
-    margin: 0px 0px;
-    padding: 0px 0px;
-}
-
-#contact_client-section h2
-{
-    padding-bottom: 20px;
-}
-
-#contact_client-section h2:nth-child(1)
-{
-    margin-bottom: 15px;
-}
-
-  #contact {
-    padding: 25px;
-    padding-top: 0px;
-  }
-  #contact h2 {
-    margin: 5px 0 15px;
-    display: block;
-  }
-  #contact button {
-    color: rgb(117, 174, 184);
-    border: 1px solid rgb(117, 174, 184);
-    padding: 10px 25px;
-    background-color: rgb(0, 0, 0, 0);
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  #contact input[type="text"],
-  #contact input[type="email"],
-  #contact input[type="tel"],
-  #contact input[type="url"],
-  #contact textarea {
-    width: 100%;
-    border: 1px solid #ccc;
-    background: #fff;
-    margin: 0 0 5px;
-    padding: 6px;
-    margin-bottom: 15px;
-  }
-  
-  #contact textarea {
-    height: 180px;
-  }
-  
-  .client_boxs {
-    max-width: 250px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .client_boxs_1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    max-width: 150px;
-    margin-right: 10%;
-  }
-  
-  .client_boxs_2 {
-    max-width: 150px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .logo_box img {
-    width: 120px;
-    margin-bottom: 40px;
-  }

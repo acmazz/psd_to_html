@@ -21,11 +21,17 @@ nav {
     color: blue;
 }
 
+nav .tajam{
+    font-size: 1.5rem;
+    font-weight: 1;
+}
+
 nav
 {
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 0.94em;
-    color: #fff;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: white;
     max-width: 606px;
     margin: 0 auto;
 }
@@ -38,7 +44,7 @@ header
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 350px;
+    height: 500px;
 }
 
 header .inner
@@ -96,19 +102,23 @@ header .inner .right div
 
 header #hero-section
 {
-    color: #fff;
+    color: white;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 header #hero-section h1
 {
-    font-size: 1.4em;
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;;
+
 }
 
 header #hero-section hr
 {
-    width: 5%;
+    width: 3%;
     border: none;
     border-top: 1px solid rgb(64, 202, 190);
     margin: 15px auto;
@@ -116,7 +126,10 @@ header #hero-section hr
 
 header #hero-section p
 {
-    line-height: 1.6em;
+    font-size: 0.9rem;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5rem;
     max-width: 606px;
     margin: 0 auto;
     padding-bottom: 30px;
@@ -124,12 +137,15 @@ header #hero-section p
 
 header #hero-section button
 {
+    font-size: 0.5rem;
+    font-weight: bold;
     color: rgb(64, 202, 190);
     border: 1px solid rgb(64, 202, 190);
-    padding: 10px;
+    padding: 6px 7px;
     background-color: transparent;
-    border-radius: 4px;
+    border-radius: 1px;
     cursor: pointer;
+    margin-top: 1.5rem;
 }
 
 #our_story-section .inner
@@ -138,7 +154,9 @@ header #hero-section button
     justify-content: center;
     align-items: center;
     max-width: 606px;
+    height: 22rem;
     margin: 0 auto;
+    margin-top: 32rem;
     padding: 40px 0px;
 }
 
@@ -149,7 +167,7 @@ header #hero-section button
 
 #our_story-section .inner .right
 {
-    margin-left: 30px;
+    margin-left: 3rem;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 

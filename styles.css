@@ -433,7 +433,7 @@ div .team-tile {
     height: 500px;
     display: flex;
     justify-content: flex-start;
-    margin-top: 600px;
+    margin-top: 550px;
 }
 
 .container_contact_L {
@@ -466,7 +466,7 @@ div .team-tile {
 #contact_client-section h2
 {
     font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-    font-weight:550;
+    font-weight:lighter;
     font-size: 1rem;
     margin-bottom: 0.5rem;
     padding-bottom: 20px;

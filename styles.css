@@ -1,5 +1,16 @@
 * {
-    margin: 0;
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body
+{
+    max-width: 1006px;
+    margin: 0 auto;
+}
+
+main
+{
+    margin-top: 350px;
 }
 
 nav {
@@ -10,26 +21,710 @@ nav {
     color: blue;
 }
 
-#our_story-section {
-    color: green;
+nav .tajam {
+    font-size: 1.5rem;
+    font-weight: 1;
 }
 
-#watch-section {
-    color: darkred;
+nav
+{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: white;
+    max-width: 1006px;
+    margin: 0 auto;
+}
+
+header
+{
+    background: url(images/bgk-header.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+}
+
+header .inner
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .inner .left
+{
+    display: flex;
+    align-items: center;
+    color: rgb(64, 202, 190);
+}
+
+header .inner .left div:nth-child(1)
+{
+    padding-right: 10px;
+}
+
+header .inner .left img
+{
+    height: 40px;
+    margin: 4px 0;
+}
+
+header .inner .right
+{
+    display: flex;
+}
+
+header .inner .right .item:nth-child(1)
+{
+    color: rgb(64, 202, 190);
+}
+
+header .inner .right .item
+{
+    padding: 0;
+    padding-left: 10px;
+    line-height: 48px;
+    height: 48px;
+}
+
+header .inner .right .item:nth-last-child(1)
+{
+    padding-right: 10px;
+}
+
+header .inner .left div, 
+header .inner .right div
+{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+header #hero-section
+{
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+header #hero-section h1
+{
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+header #hero-section hr
+{
+    width: 3%;
+    border: none;
+    border-top: 1px solid rgb(64, 202, 190);
+    margin: 15px auto;
+}
+
+header #hero-section p
+{
+    font-size: 0.9rem;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5rem;
+    max-width: 1006px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+header #hero-section button
+{
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: rgb(64, 202, 190);
+    border: 1px solid rgb(64, 202, 190);
+    padding: 6px 7px;
+    background-color: transparent;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+#our_story-section .inner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1006px;
+    height: 22rem;
+    margin: 0 auto;
+    margin-top: 32rem;
+    padding: 40px 0px;
+}
+
+#our_story-section .inner .left
+{
+    margin-right: 30px;
+}
+
+#our_story-section h1 {
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    margin-bottom: 30px;
+}
+
+#our_story-section .inner .right
+{
+    margin-left: 3rem;
+    font-size: 0.9rem;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5rem;
+}
+
+#our_story-section .inner .right button
+{
+    margin-top: 30px;
+    color: rgb(64, 202, 190);
+    border: 1px solid rgb(64, 202, 190);
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#watch-section
+{
+    height: 450px;
+}
+
+#watch-section .inner
+{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    background-image: url(images/bgk-middle.png);
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#watch-section .inner .item .label
+{
+    padding-top: 20px;
 }
 
 #expertise-section {
-    color: fuchsia;
+    width: 100%;
+    padding: 40px 0px;
 }
 
-#team-section {
-    color: yellowgreen;
+#expertise-section .inner {
+    max-width: 1006px;
+    margin: 0 auto;
 }
+
+#expertise-section .upper {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#expertise-section .upper h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+#expertise-section .upper h2 {
+    text-align: center;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+#expertise-section .upper hr {
+    border: none;
+    border-top: 1px solid gray;
+    width: 6%;
+    margin: 1rem auto;
+}
+#expertise-section .lower {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+#expertise-section .lower .item {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+#expertise-section .lower .item:nth-child(1),
+#expertise-section .lower .item:nth-child(2) {
+    border-right: 1px solid rgb(230,230,230);
+    border-bottom: 1px solid rgb(230,230,230);
+}
+
+#expertise-section .lower .item:nth-child(3) {
+    border-bottom: 1px solid rgb(230,230,230);
+}
+
+#expertise-section .lower .item:nth-child(4),
+#expertise-section .lower .item:nth-child(5) {
+    border-right: 1px solid rgb(230,230,230);
+}
+
+#expertise-section .lower .item .pic img
+{
+    height: 48px;
+}
+
+#expertise-section .lower .item .pic,
+#expertise-section .lower .item .tle,
+#expertise-section .lower .item .dsc {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+#expertise-section .lower .item .tle {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 0.56rem;
+    font-weight: bold;
+}
+
+#expertise-section .lower .item .dsc {
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+
+/*
+Team Section
+*/
+#team-section {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    background: url(/images/bgk-team.png) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#team-section .outer
+{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+#team-section .inner
+{
+    display: flex;
+    max-width: 1006px;
+    padding: 0px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#team-head h2{
+    text-align: center;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#team-head p{
+    text-align: center;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+#t-hr {
+    border: none;
+    border-top: 1px solid gray;
+    width: 3%;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#team-tile{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+#team-tile img
+{
+    width: 160px;
+}
+
+div .team-tile {
+    margin: 0.4rem;
+    font-size: 0.5rem;
+}
+
+.team-tile img {
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+}
+
+.t-tile-label{
+    border: rgba(255, 255, 255, 0.2) solid 1px;
+    padding: 1rem 0;
+}
+.t-name{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 0.2rem;
+}
+
+.t-position{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 0.5rem;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.52);
+}
+
+#team-bottom{
+    display: block;
+    text-align: center;
+}
+
+#team-bottom p{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+#team-section #team-bottom .button {
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: rgb(64, 202, 190);
+    border: 1px solid rgb(64, 202, 190);
+    padding: 6px 7px;
+    background-color: transparent;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
 
 #contact_client-section {
-    color: lightsalmon;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 550px;   
 }
 
-footer {
+.container_contact_L {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    vertical-align: top;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    vertical-align: top;
+    max-width: 1006px;
+}
+.container .container_contact_L {
+    min-width: 350px;
+}
+
+#contact_client-section form
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#contact_client-section h2
+{
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight:lighter;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 20px;
+}
+
+#contact_client-section h2:nth-child(1)
+{
+    margin-bottom: 15px;
+}
+
+#contact {
+    padding: 25px;
+    padding-top: 0px;
+}
+#contact h2 {
+    margin: 5px 0 15px;
+    display: block;
+}
+#contact button {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: rgb(64, 202, 190);
+    border: 1px solid rgb(64, 202, 190);
+    border-radius: 1px;
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#contact input[type="text"], #contact input[type="email"],
+#contact input[type="tel"], #contact input[type="url"],
+#contact textarea {
+    width: 90%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#contact textarea {
+    height: 180px;
+}
+
+.client_boxs {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client_boxs_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 150px;
+    margin-right: 10px;
+}
+
+.client_boxs_2 {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.logo_box img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto-Light', sans-serif;
+}
+
+#footer .color-white{
+    color: white !important;
+}
+
+
+#footer{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    background: url('/images/bgk-footer.png') no-repeat;
+    background-size: cover;
+}
+
+#footer .inner
+{
+    min-height: 50vh;
+    max-width: 1006px;
+    margin: 0 auto;
+    padding:4rem 2rem;
+    display: flex;
+    align-items: center;
     color: blueviolet;
+    font-size: 0.85em;
+}
+
+#footer .footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer .footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+#footer .footer-company{
+    flex: calc((100% / 3) - 56px);
+    margin-right: 28px;
+}
+
+#footer .footer-company .company-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+#footer .footer-company .company-icon p{
+    font-size: 30px;
+    background: linear-gradient(to right, #01decf, #4697bf);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 8px;  
+    font-weight: 300;
+}
+
+#footer .company-info p{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#footer .footer-address{
+   flex: calc((100% / 3) - 56px); 
+   margin-right: 28px;
+}
+
+#footer .footer-links{
+   flex: calc((100% / 3) - 56px); 
+}
+
+#footer .address-title,#footer .links-title{
+    color: white;
+    min-height: 50px;
+    display: flex;align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+#footer .address-title{
+    color: white;
+}
+
+#footer .address{
+    margin-bottom: 24px !important;
+    display: flex;
+}
+
+#footer .phone{
+    display: flex;
+}
+
+#footer .address img{
+    margin-right: 12px !important;
+    max-height: 22px;
+}
+
+#footer .phone img{
+    margin-right: 12px !important;
+}
+
+#footer .subscribe-form{
+    display: flex; align-items: center;
+    margin-bottom: 24px;
+
+}
+#footer .subscribe-form input{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 12px 14px;
+    margin-right: 10px;
+    background: transparent;
+    color: white;
+    font-style: 20px;
+    flex: 90%;
+} 
+
+
+#footer .subscribe-form button{
+    flex: auto;
+    padding: 8px 24px;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+
+#footer .links{
+    display: flex;
+}
+
+
+#footer .links .link{
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+#footer .links .link:last-child{
+    margin-right: 0;
+}
+
+
+#footer .footer-help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#footer .footer-help .help-links{
+    display: flex;
+}
+
+
+#footer .footer-help .help-link{
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+@media screen and (max-width:768px) {
+    #footer .footer-content{
+        flex-direction: column;
+    }
+
+    #footer{
+        padding: 40px 30px;
+    }
+
+    #footer .footer-help{
+        flex-direction: column;
+    }
+
+    #footer .footer-help .help-link {
+        margin-right: 12px;
+        margin-bottom: 20px;
+    }
+
+    #footer .address-title,#footer .links-title{
+        margin-top: 48px;
+        min-height: unset;
+    }
 }

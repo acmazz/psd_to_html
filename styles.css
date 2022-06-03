@@ -4,7 +4,7 @@
 
 body
 {
-    max-width: 606px;
+    max-width: 1006px;
     margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ nav
     font-size: 0.5rem;
     font-weight: bold;
     color: white;
-    max-width: 606px;
+    max-width: 1006px;
     margin: 0 auto;
 }
 
@@ -129,7 +129,7 @@ header #hero-section p
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     line-height: 1.5rem;
-    max-width: 606px;
+    max-width: 1006px;
     margin: 0 auto;
     padding-bottom: 30px;
 }
@@ -152,7 +152,7 @@ header #hero-section button
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 606px;
+    max-width: 1006px;
     height: 22rem;
     margin: 0 auto;
     margin-top: 32rem;
@@ -168,6 +168,7 @@ header #hero-section button
     font-size: 1.4rem;
     font-weight: lighter;
     font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    margin-bottom: 30px;
 }
 
 #our_story-section .inner .right
@@ -181,6 +182,7 @@ header #hero-section button
 
 #our_story-section .inner .right button
 {
+    margin-top: 30px;
     color: rgb(64, 202, 190);
     border: 1px solid rgb(64, 202, 190);
     padding: 10px;
@@ -221,7 +223,7 @@ header #hero-section button
 }
 
 #expertise-section .inner {
-    max-width: 606px;
+    max-width: 1006px;
     margin: 0 auto;
 }
 
@@ -237,6 +239,7 @@ header #hero-section button
     font-weight: lighter;
     font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     margin: 10px 0;
+    margin-bottom: 20px;
 }
 
 #expertise-section .upper h2 {
@@ -244,7 +247,7 @@ header #hero-section button
     font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     font-weight: normal;
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 #expertise-section .upper hr {
@@ -331,9 +334,10 @@ Team Section
 #team-section .inner
 {
     display: flex;
-    max-width: 606px;
+    max-width: 1006px;
     padding: 0px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 #team-head h2{
@@ -370,7 +374,7 @@ Team Section
 
 #team-tile img
 {
-    width: 139px;
+    width: 160px;
 }
 
 div .team-tile {
@@ -432,8 +436,8 @@ div .team-tile {
     width: 100%;
     height: 500px;
     display: flex;
-    justify-content: flex-start;
-    margin-top: 550px;
+    justify-content: center;
+    margin-top: 550px;   
 }
 
 .container_contact_L {
@@ -450,10 +454,9 @@ div .team-tile {
     justify-content: space-between;
     align-items: flex-start;
     vertical-align: top;
-    max-width: 606px;
+    max-width: 1006px;
 }
 .container .container_contact_L {
-    margin-right: 5%;
     min-width: 350px;
 }
 
@@ -512,7 +515,7 @@ div .team-tile {
 }
 
 .client_boxs {
-    max-width: 250px;
+    max-width: 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -520,19 +523,21 @@ div .team-tile {
 .client_boxs_1 {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     max-width: 150px;
-    margin-right: 10%;
+    margin-right: 10px;
 }
 
 .client_boxs_2 {
     max-width: 150px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
 }
 
 .logo_box img {
-    width: 120px;
+    width: 100%;
     margin-bottom: 40px;
 }
 
@@ -557,7 +562,7 @@ body{
 #footer .inner
 {
     min-height: 50vh;
-    max-width: 606px;
+    max-width: 1006px;
     margin: 0 auto;
     padding:4rem 2rem;
     display: flex;

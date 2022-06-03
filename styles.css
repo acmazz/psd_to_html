@@ -318,7 +318,7 @@ Team Section
     position: absolute;
     left: 0px;
     width: 100%;
-    background: url(/images/bgk-team.png) no-repeat;
+    background: url(images/bgk-team.png) no-repeat;
     background-size: cover;
     height: 500px;
 }
@@ -555,7 +555,7 @@ body{
     position: absolute;
     left: 0px;
     width: 100%;
-    background: url('/images/bgk-footer.png') no-repeat;
+    background: url('images/bgk-footer.png') no-repeat;
     background-size: cover;
 }
 

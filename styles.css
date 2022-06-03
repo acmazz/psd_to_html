@@ -21,7 +21,7 @@ nav {
     color: blue;
 }
 
-nav .tajam{
+nav .tajam {
     font-size: 1.5rem;
     font-weight: 1;
 }
@@ -112,8 +112,7 @@ header #hero-section h1
     margin-top: 5rem;
     font-size: 1.4rem;
     font-weight: lighter;
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;;
-
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
 header #hero-section hr
@@ -165,10 +164,19 @@ header #hero-section button
     margin-right: 30px;
 }
 
+#our_story-section h1 {
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
 #our_story-section .inner .right
 {
     margin-left: 3rem;
+    font-size: 0.9rem;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5rem;
 }
 
 #our_story-section .inner .right button
@@ -183,7 +191,7 @@ header #hero-section button
 
 #watch-section
 {
-    height: 400px;
+    height: 450px;
 }
 
 #watch-section .inner
@@ -193,12 +201,12 @@ header #hero-section button
     left: 0px;
     background-image: url(images/bgk-middle.png);
     background-size: cover;
-    height: 400px;
+    height: 450px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    color: white;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
@@ -225,15 +233,15 @@ header #hero-section button
 
 #expertise-section .upper h1 {
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     margin: 10px 0;
 }
 
 #expertise-section .upper h2 {
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     font-weight: normal;
     font-size: 1em;
     margin-bottom: 10px;
@@ -241,9 +249,9 @@ header #hero-section button
 
 #expertise-section .upper hr {
     border: none;
-    border-top: 1px solid rgb(230,230,230);
-    width: 100px;
-    margin: 0 auto;
+    border-top: 1px solid gray;
+    width: 6%;
+    margin: 1rem auto;
 }
 #expertise-section .lower {
     margin: 0;
@@ -289,13 +297,14 @@ header #hero-section button
 }
 
 #expertise-section .lower .item .tle {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 0.56rem;
     font-weight: bold;
-    font-size: 0.9em;
 }
 
 #expertise-section .lower .item .dsc {
-    font-weight: normal;
-    font-size: 0.8em;
+    font-weight: lighter;
+    font-size: 0.7rem;
 }
 
 
@@ -308,7 +317,7 @@ Team Section
     width: 100%;
     background: url(/images/bgk-team.png) no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 500px;
 }
 
 #team-section .outer
